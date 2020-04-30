@@ -1,6 +1,5 @@
 #!/usr/bin/env coffee
 
-klawSync = require('klaw-sync')
 fs = require 'fs'
 path = require 'path'
 
