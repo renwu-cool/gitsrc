@@ -11,5 +11,8 @@
   "files": [
     "/gitsrc.js",
     "/exec.js"
-  ]
+  ],
+  "dependencies": {
+    "fs-extra": "^9.0.0"
+  }
 }
