@@ -1,0 +1,8 @@
+{
+  "name": "gitsrc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:renwu-cool/gitsrc.git",
+  "author": "anyone <anyone@renwu.cool>",
+  "license": "MPL-2.0"
+}
