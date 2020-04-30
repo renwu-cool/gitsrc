@@ -11,7 +11,7 @@ src = (gitpath)=>
   config = fs.readFileSync(
     path.join(gitpath,'config'),"utf-8"
   )
-  log /url\s*=\s*(.*)/.exec(config)[1]
+  log /url\s*=\s*(.*)/.exec(config)[1].trim()
 
 do =>
   cwd = process.cwd()

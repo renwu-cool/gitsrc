@@ -14,7 +14,7 @@
   src = (gitpath) => {
     var config;
     config = fs.readFileSync(path.join(gitpath, 'config'), "utf-8");
-    return log(/url\s*=\s*(.*)/.exec(config)[1]);
+    return log(/url\s*=\s*(.*)/.exec(config)[1].trim());
   };
 
   (() => {
