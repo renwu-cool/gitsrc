@@ -1,7 +1,5 @@
-module.exports = {
+#!/usr/bin/env coffee
 
-}
-
-# module.exports = ->
-
+do =>
+  console.log "good"
 
